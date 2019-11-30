@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px auto;
+    height: 1100px;
+    width: 800px;
+    padding: 50px 50px 100px 175px;
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 20px gray;
+
+}
+
+.university {
+    padding-bottom: 200px;
+    font-weight: bold;
+}
+
+
+.topic :nth-child(3):before {
+    content: open-quote;
+}
+
+.topic :nth-child(3):after {
+    content: close-quote;
+}
+
+.topic :nth-child(3) {
+    quotes: "\00ab" "\00bb";
+    font-weight: bold;
+}
+
+.name {
+    align-self: flex-end;
+    line-height: 10px;
+    text-align: left;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+}
+
