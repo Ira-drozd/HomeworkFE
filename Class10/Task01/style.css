@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cuprum', sans-serif;
+}
+
+header, footer {
+    background: rgba(31,30,36);
+    color: white;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+
+header h1{
+    float: left;
+    margin:  15px 15px 0 15px;
+}
+nav{
+    float: right;
+    width: 600px;
+    min-height: 50px;
+    background: rgba(31,30,36, 0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul ul {
+    display: none;
+    background-color: #f90;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul ul li { float: none; }
+nav ul li:hover { background-color: #f90; }
+nav ul ul li:hover { background-color: rgba(31,30,36, 0.3); }
+
+/*main */
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    min-width: 200px;
+    //background: green;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+@media(max-width: 859px) {
+    .container {
+        padding-bottom: 10px;
+    }
+    nav{
+        width: 100%;
+    }
+}
+.sending-order{
+    background: rgba(31,30,36, 0.3);
+    border-radius: 5px;
+}
+
+#name, #phone, #email, #adress, textarea{
+    margin: 10px;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    float: none;
+}
+
+.courier, .pickup {
+    display: none;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea{
+    width: 300px;
+}
+
+.smcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.sending-order{
+    text-align: center;
+    width: 100%;
+}
+/*contacts */
+.contacts{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts address, .contacts a, .contacts p, .contacts i{
+    padding: 0;
+    margin: 5px;
+}
+
+.contacts a i:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.3s;
+}
+.contacts a{
+    color: white;
+}
+
+
