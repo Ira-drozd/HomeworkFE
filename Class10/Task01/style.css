@@ -14,6 +14,7 @@ header, footer {
 header{
     position: fixed;
     width: 100%;
+    min-height:80px;
     top: 0;
     left: 0;
 
@@ -22,12 +23,12 @@ header{
 
 header h1{
     float: left;
-    margin:  15px 15px 0 15px;
+    margin:  15px;
 }
 nav{
     float: right;
     width: 600px;
-    min-height: 50px;
+    min-height: 100%;
     background: rgba(31,30,36, 0.3);
 }
 
@@ -72,18 +73,26 @@ nav ul ul li:hover { background-color: rgba(31,30,36, 0.3); }
     margin: 0 auto;
     width: 500px;
     min-width: 200px;
-    //background: green;
-    padding-top: 130px;
-    padding-bottom: 100px;
+ 
+    padding-top: 120px;
+    padding-bottom: 50px;
 }
+
 @media(max-width: 859px) {
     .container {
-        padding-bottom: 10px;
+        padding-bottom: 30px;
+        padding-top: 149px;
     }
     nav{
         width: 100%;
     }
 }
+@media(max-width: 616px) {
+    .container {
+        padding-top: 187px;
+    }  
+}
+
 .sending-order{
     background: rgba(31,30,36, 0.3);
     border-radius: 5px;
@@ -109,7 +118,7 @@ input[type="text"], input[type="tel"], input[type="email"], textarea{
     width: 300px;
 }
 
-.smcontainer{
+.sm-container{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -122,6 +131,14 @@ input[type="text"], input[type="tel"], input[type="email"], textarea{
     text-align: center;
     width: 100%;
 }
+#checkout-form{
+padding: 20px;
+}
+
+input[name="checkbox"]:checked + div.b1{
+    display: none;;
+}
+
 /*contacts */
 .contacts{
     text-align: center;
