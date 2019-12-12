@@ -134,9 +134,20 @@ input[type="text"], input[type="tel"], input[type="email"], textarea{
 #checkout-form{
 padding: 20px;
 }
+div.b1{
+    display: none;
+}
 
-input[name="checkbox"]:checked + div.b1{
-    display: none;;
+input[name="checkbox"]:checked ~ div.b1{
+    display: block;
+}
+.conditions-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+    //align-items: center;
+    padding-right: 20px;
 }
 
 /*contacts */
