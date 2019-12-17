@@ -1,0 +1,36 @@
+#heart{
+    width: 100px;
+   color: gray;
+}
+.heard-section a:hover #heart{
+  color: blue;
+}
+
+.heard-section a:visited #heart{
+    color: red;
+}
+
+.heard-section a:hover #heart{
+    color: orangered;
+}
+
+.background-section{
+    height: 500px;
+    width: 90%;
+    background-image: url("https://raw.githubusercontent.com/AdukarIT/_Tasks_/master/assets/beach/sun.png"), url("https://raw.githubusercontent.com/AdukarIT/_Tasks_/master/assets/beach/sky.jpg"), url("https://raw.githubusercontent.com/AdukarIT/_Tasks_/master/assets/beach/sea.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100px, 500px 250px, 500px 250px;
+    background-position:  top, top, bottom;
+}
+input[type="checkbox"] + label::before{
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 0 5px 0 0;
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/06/17/03/mount-833514_960_720.png");
+    background-repeat: no-repeat;
+}
+input[type="checkbox"] + label::before {
+    background-position: -30px -250px;
+}
