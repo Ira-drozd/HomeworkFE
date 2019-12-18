@@ -1,17 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
 #heart{
     width: 100px;
-   color: gray;
+    fill: gray;
 }
 .heard-section a:hover #heart{
-  color: blue;
+    fill: blue;
 }
 
 .heard-section a:visited #heart{
-    color: red;
+    fill: red;
 }
 
-.heard-section a:hover #heart{
-    color: orangered;
+.heard-section a:visited:hover #heart{
+    fill: deeppink;
 }
 
 .background-section{
@@ -22,15 +28,63 @@
     background-size: 100px, 500px 250px, 500px 250px;
     background-position:  top, top, bottom;
 }
-input[type="checkbox"] + label::before{
-    content: "";
-    display: inline-block;
-    height: 18px;
-    width: 18px;
-    margin: 0 5px 0 0;
-    background-image: url("https://cdn.pixabay.com/photo/2015/07/06/17/03/mount-833514_960_720.png");
-    background-repeat: no-repeat;
+
+input[type="checkbox"]{
+position: absolute;
+    z-index: -1;
+    opacity: 0;
 }
-input[type="checkbox"] + label::before {
-    background-position: -30px -250px;
+
+input[type="checkbox"] + label {
+    position: relative;
+    cursor: pointer;
 }
+
+input[type="checkbox"] + label:before{
+    position: absolute;
+    content: "\f07c";
+    font-family: FontAwesome;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    color:#393;
+    cursor: pointer;
+   border: #393 solid 2px;
+    padding: 3px;
+    transition: .5s;
+}
+
+input[type="checkbox"]:checked + label:before{
+    content: "\f07b";
+    color: blue;
+    border: blue solid 2px;
+}
+
+.container-header{
+background: aquamarine;
+ display: flex;
+    flex-wrap: wrap;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.nav li{
+    list-style: none;
+}
+.logo{
+    flex:  1 1;
+}
+
+.search{
+    flex:  3 3;
+}
+
+.cell{
+    flex:  2 2;
+}
+nav{
+    flex:  5 5;
+}
+
+
