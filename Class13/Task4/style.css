@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: rgb(74,118,168);
+    --blue-text: rgb(40, 84, 115);
+    --heder-darkblue-icon: rgb(34,75,122);
+    --blue-icon:rgb(154,177,198);
+}
+header{
+    height: 42px;
+    background: var(--main-color);
+}
+.header-section{
+    width: 990px;
+}
+.contact-section{
+    width: 990px;
+}
