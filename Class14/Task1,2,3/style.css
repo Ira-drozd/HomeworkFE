@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 990px;
+    height: 1000px;
+    background: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fan-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.fan {
+
+    width: 200px;
+    transition: all 2s cubic-bezier(0.9, 0, 1, 1);
+}
+
+.fan:hover {
+    transform: rotate(1080deg);
+}
+
+.ball-container {
+    width: 500px;
+    height: 106px;
+    border: 3px solid black;
+    position: relative;
+    padding: 50px;
+    margin: 50px;
+}
+
+
+#ball-check {
+    position: relative;
+    right: 100px;
+}
+
+.ball-container input:not(checked) + label:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url("img/soccer-ball-png-26384.png") no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+
+    transition: margin-left 2s cubic-bezier(0, 0, 0.1, 1);
+}
+
+.ball-container input:checked + label:before {
+
+    margin-left: 394px;
+}
+
+.ball-container input {
+    display: none;
+}
+
+.sheet {
+    width: 66px;
+    height: 135px;
+    background: url("img/sheet.jpg") no-repeat left top;
+
+}
+
+.sheet:hover{
+    animation: 0.3s;
+    animation-name: play-sheet;
+}
+@keyframes play-sheet {
+    0% {
+        background-position: left top;
+    }
+    17% {
+        background-position: -66px top;
+    }
+    33% {
+        background-position: -132px top;
+    }
+    50% {
+        background-position: -198px top;
+    }
+    67% {
+        background-position: -264px top;
+    }
+    83% {
+        background-position: -330px top;
+    }
+    100% {
+        background-position: -396px top;
+    }
+    0%{
+        background-position: left top;
+    }
+}

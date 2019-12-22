@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="491fa734-79cc-4874-952d-142562ccc7a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Class13/Task1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class13/Task1/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class13/Task2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class13/Task2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class13/Task4/img/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class13/Task4/svg/chevron-down-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class14/Task1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class14/Task1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class13/Task4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class13/Task4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class13/Task4/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Class13/Task4/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class13/Task4/svg/bell-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Class13/Task4/svg/bell-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class13/Task4/svg/music-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Class13/Task4/svg/music-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class13/Task4/svg/play-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Class13/Task4/svg/play-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class13/Task4/svg/search-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Class13/Task4/svg/search-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class13/Task4/svg/vk-brands.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Class13/Task4/svg/vk-brands.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Class13/Task2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Class14" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
@@ -74,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576683146743</updated>
       <workItem from="1576683148226" duration="15659000" />
+      <workItem from="1576941490456" duration="203000" />
     </task>
     <servers />
   </component>
@@ -81,10 +90,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="200" y="263" key="FileChooserDialogImpl" timestamp="1576704270084">
+    <state x="200" y="263" key="FileChooserDialogImpl" timestamp="1576941691671">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="200" y="263" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1576704270084" />
+    <state x="200" y="263" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1576941691671" />
     <state width="794" height="336" key="GridCell.Tab.0.bottom" timestamp="1576704271313">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
