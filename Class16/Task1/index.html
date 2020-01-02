@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-2 col-sm-6 text-secondary logo">Online Store</div>
+
+
+            <nav class="navbar navbar-expand-sm navbar-light ">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <a class="dropdown-item" href="#">Item</a>
+                                <a class="dropdown-item" href="#">Item</a>
+                                <a class="dropdown-item" href="#">Item</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="#">Item</a>
+                                <a class="dropdown-item" href="#">Item</a>
+                                <a class="dropdown-item" href="#">Item</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <a class="dropdown-item" href="#">Item</a>
+                                <a class="dropdown-item" href="#">Item</a>
+                                <a class="dropdown-item" href="#">Item</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shopping cart</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <section class="order-form-section">
+            <form class="col-md-6 col-sm-12" method="post">
+
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label" for="name">Name</label>
+                    <input class="col-sm-8 form-control form-control-sm" id="name" type="text">
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label" for="tel">Phone number</label>
+                    <input class="col-sm-8 form-control form-control-sm" id="tel" type="tel"
+                           pattern=+[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label" for="email">Email</label>
+                    <input class="col-sm-8 form-control form-control-sm" id="email" type="email">
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-4">Choose a delivery method
+                    </div>
+                    <div class=" col-sm-8" onclick="onChange()">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="delivery" id="pickup"
+                                   value="pickup" checked>
+                            <label class="form-check-label" for="pickup">
+                                Pickup
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="delivery" id="courier"
+                                   value="courier">
+                            <label class="form-check-label" for="courier">
+                                Courier
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toggle-pickup">
+                    <div class="row">
+                        <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.255026499644!2d27.599788515409806!3d53.92721293874435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf0f07c5838b%3A0xe0afca531cff0b3f!2z0YPQuy4g0KfQtdGA0L3Ri9GI0LXQstGB0LrQvtCz0L4gNNCwLCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1575823069488!5m2!1sru!2sby"
+                                width="100%" height="300px" frameborder="0" style="border:0;"
+                                allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+
+                <div class="toggle-courier">
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" for="address">Address delivery</label>
+                        <input class="col-sm-8 form-control form-control-sm" id="address" type="text">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label textarea-comment" for="comment">Comment</label>
+                    <textarea class="col-sm-8 form-control form-control-sm" id="comment" rows="3"></textarea>
+                </div>
+
+                <div class="form-check row">
+                    <div class="col-md-12">
+                        <input class="form-check-input" type="checkbox" value="agree" id="agree-check">
+                        <label class="form-check-label" for="agree-check">
+                            By clicking on «Confirm and pay» button I agree to the <a href="#">Terms and conditions</a>
+                            of sale by company
+                        </label>
+                        <div class="col-md-12 confirm-button"><input type="submit" class="btn btn-primary"
+                                                                     value="Confirm and pay"></div>
+                    </div>
+                </div>
+
+
+            </form>
+        </section>
+    </div>
+
+</main>
+<footer class="navbar-fixed-bottom row-fluid">
+    <div class="container">
+        <div class="contacts">
+            <address>Chernyshevsky, 4А-6</address>
+            <p>Working hours: <time>10:00 — 21:00</time></p>
+            <a href="tel: +375291606474">+37529-160-64-74</a>
+            <a href="#">
+                <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.05 5.555L10 10.414l7.95-4.859A2 2 0 0016 4H4a2 2 0 00-1.95 1.555zM18 6.697l-5.875 3.59L18 13.743V6.697zm-.168 8.108l-6.675-3.926-1.157.707-1.157-.707-6.675 3.926A2 2 0 004 16h12a2 2 0 001.832-1.195zM2 13.743l5.875-3.456L2 6.697v7.046z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myjs.js"></script>
+</body>
+</html>

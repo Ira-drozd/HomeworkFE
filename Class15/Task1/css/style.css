@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+#brand-section, #service-section, #devices-section {
+  padding: 20px 0;
+  border-bottom: 1px solid #97a0a8;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu ul a {
+  text-decoration: none;
+}
+
+body {
+  font: 100% "Work Sans", sans-serif;
+}
+
+.container, header, footer {
+  margin: 0 auto;
+  max-width: 990px;
+}
+
+.menu a {
+  padding: 10px;
+  color: #97a0a8;
+  border-radius: 5px;
+  border: 1px #FFF solid;
+}
+.menu a:hover {
+  border: 1px #97a0a8 solid;
+}
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu li {
+  margin: 5px;
+}
+
+#brand-section {
+  text-align: center;
+}
+#brand-section img {
+  width: 200px;
+}
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-section address, #contact-section p, #contact-section a {
+  align-self: flex-end;
+}
+
+#comments {
+  display: flex;
+  flex-direction: column;
+}
+#comments .comment {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+#comments .comment p:first-child {
+  flex: 20%;
+  text-align: center;
+}
+#comments .comment p:last-child {
+  flex: 70%;
+  margin: 0 10px;
+  padding: 5px;
+  display: inline-block;
+  min-height: 50px;
+  border-radius: 5px;
+  border: 1px #FFF solid;
+}
+#comments .comment img {
+  flex: 0.1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

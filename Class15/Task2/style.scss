@@ -1,0 +1,57 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  background: orange;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+  .col {
+    width: 100px;
+    height: 200px;
+    border: 1px blue solid;
+  }
+}
+
+$class-name: "col";
+$green-color: green;
+
+@for $i from 1 through 6 {
+  .#{$class-name}-#{$i} {
+
+    background: $green-color;
+    opacity: 0.1 * $i;
+  }
+
+  @if $i%2==0 {
+    .#{$class-name}-#{$i} {
+      background: blue;
+    }
+  }
+}
+
+@for  $i from 1 through 6 {
+  h#{$i}{
+    text-align: center;
+  }
+}
+
+
+$step: 1;
+$h-color: #e44;
+
+@while $step <= 6 {
+  h#{$step}{
+    color: $h-color;
+  }
+  $step: $step + 2;
+}
