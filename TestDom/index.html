@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="col">1</div>
+<div class="col">2</div>
+<div class="col">3</div>
+<div class="col">4</div>
+<div class="col">5</div>
+
+<div class="container">
+    <div class="text">Язык JavaScript изначально был создан для веб-браузеров. Но с тех пор он значительно
+        эволюционировал и превратился в кроссплатформенный язык программирования для решения широкого круга задач.
+    </div>
+    <div class="text">Сегодня JavaScript может использоваться в браузере, на веб-сервере или в какой-то другой
+        среде,
+        даже в кофеварке. Каждая среда предоставляет свою функциональность, которую спецификация JavaScript называет
+        окружением.
+    </div>
+    <div class="text">Окружение предоставляет свои объекты и дополнительные функции, в дополнение базовым языковым.
+        Браузеры, например, дают средства для управления веб-страницами. Node.js делает доступными какие-то
+        серверные
+        возможности и так далее.
+    </div>
+</div>
+
+<p>Counter</p>
+<div class="counter">
+    0
+</div>
+<button id="stop-counter">Stop counter</button>
+
+<button id="stop-body">Stop body</button>
+<div class="insertObj">
+    <p>Insert Obj</p>
+    <ul id="ul"></ul>
+</div>
+<div id="columns">
+    <div class="column" style="background: #3c763d" draggable="true"></div>
+    <div class="column" draggable="true"></div>
+    <div class="column" draggable="true"></div>
+
+</div>
+
+<div class="ascent">
+    <div class="elem"></div>
+    <div class="elem"></div>
+    <div class="elem"></div>
+    <div class="elem"></div>
+    <div class="elem"></div>
+    <div class="elem "></div>
+    <div class="elem"></div>
+    <div class="elem"></div>
+    <div class="elem"></div>
+</div>
+<div class="behavior">
+    <h1>Делегирование</h1>
+    <button data-toggle-id="subscribe-mail">
+        Показать форму подписки
+    </button>
+
+    <form id="subscribe-mail" hidden>
+        Ваша почта: <input type="email">
+    </form>
+    Счётчик: <input type="button" value="1" data-counter>
+    Ещё счётчик: <input type="button" value="2" data-counter>
+    <div id="menu">
+        <button data-action="save">Сохранить</button>
+        <button data-action="load">Загрузить</button>
+        <button data-action="search">Поиск</button>
+    </div>
+</div>
+<script src="js.js"></script>
+</body>
+</html>

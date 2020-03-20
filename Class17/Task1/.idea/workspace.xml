@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79ff2047-c3d6-4167-a8d8-39fff845dd67" name="Default Changelist" comment="">
+    <list default="true" id="57cd3fa3-b08e-49d7-abf6-0bdbbd598c7a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../TestDom/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../TestDom/js.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../TestDom/style.scss" afterDir="false" />
@@ -21,17 +21,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1VqgH0Fy9GxkI2LtS9lJnPeZ7aO" />
+  <component name="ProjectId" id="1Yo39GtWFSwJ0mRRWrVogTS2g8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Class16/Task1" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,13 +44,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79ff2047-c3d6-4167-a8d8-39fff845dd67" name="Default Changelist" comment="" />
-      <created>1577985947881</created>
+      <changelist id="57cd3fa3-b08e-49d7-abf6-0bdbbd598c7a" name="Default Changelist" comment="" />
+      <created>1583594966480</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577985947881</updated>
-      <workItem from="1577985950120" duration="68000" />
-      <workItem from="1583595041436" duration="9000" />
+      <updated>1583594966480</updated>
+      <workItem from="1583594967709" duration="26000" />
     </task>
     <servers />
   </component>
@@ -73,15 +66,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="619" y="248" key="FileChooserDialogImpl" timestamp="1577986014115">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="619" y="248" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1577986014115" />
-    <state x="536" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1577985951983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="536" y="330" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1577985951983" />
   </component>
 </project>

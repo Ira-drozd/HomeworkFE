@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0ab371e-80ce-4fb5-b09e-526d583f45af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Class27/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class27/.idea/Class27.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class27/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class27/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class27/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class27/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class27/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class27/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/.idea/Class28.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class28/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/.idea/Class29.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class29/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Class30.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDom/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDom/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/.idea/TestEvent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEvent/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class15/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Class15/untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class26/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Class26/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZOQG12YcwCzK2TeoxrvnI3fiX0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Class29" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Class30/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0ab371e-80ce-4fb5-b09e-526d583f45af" name="Default Changelist" comment="" />
+      <created>1584707560515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584707560515</updated>
+      <workItem from="1584707561667" duration="6711000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

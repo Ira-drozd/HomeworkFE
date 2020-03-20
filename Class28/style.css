@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+}
+
+.invalid {
+  border-color: red;
+}
+
+#errorEmail, #errorPassword {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
