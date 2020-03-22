@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body {
+  box-sizing: border-box;
+}
+
+.gallery {
+  overflow: hidden;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  background: red;
+  display: flex;
+}
+.gallery button {
+  width: 50px;
+  position: absolute;
+  z-index: 1;
+  height: inherit;
+}
+.gallery #next {
+  right: 0;
+}
+.gallery img {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 0 50px;
+}
+
+input.ok + span:after {
+  content: "✔";
+  color: green;
+  font-size: 15px;
+  position: absolute;
+  right: 15px;
+}
+
+input.no + span:after {
+  content: "✕";
+  color: red;
+  font-size: 15px;
+  position: absolute;
+  right: 15px;
+}
+
+form[name=myform] {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+form[name=myform] span {
+  position: relative;
+}
+form[name=myform] label {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+form[name=myform] label input {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

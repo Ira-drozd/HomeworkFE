@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="currDateInput"></div>
+<div class="gallery">
+    <button id="prev">← Prev</button>
+    <img src="https://images.pexels.com/photos/210628/pexels-photo-210628.jpeg?cs=srgb&dl=beautiful-blur-fashion-210628.jpg&fm=jpg">
+    <img src="http://sf.co.ua/13/12/wallpaper-1007620.jpg">
+    <img src="https://www.goodfreephotos.com/albums/people/walking-on-the-railroad-tracks.jpg">
+    <img src="https://secure.i.telegraph.co.uk/multimedia/archive/03543/Narutos_selfie_344_3543114b.jpg">
+    <button id="next">Next →</button>
+</div>
+<div>Prev left: <span class="prev-left"></span></div>
+<div>Next left: <span class="next-left"></span></div>
+
+<!--Форма обратной связи содержит поля: имя, емейл, телефон, сообщение. Все поля обязательны для заполнения.
+Сообщение должно быть от 10 до 1000 знаков. После заполнения каждого из полей рядом с ним должна загораться галочка.
+При отправке формы выведите сообщение, если какие-то поля не заполнены, а также отмените отправку.-->
+<form action="post" name="myform" id="myform">
+    <label for="name">Name
+        <input type="text" name="name">
+        <span></span>
+    </label>
+    <label for="email">Email
+        <input type="email" name="email">
+        <span></span>
+    </label>
+    <label for="tel">Phone
+        <input type="tel" name="tel">
+        <span></span>
+    </label>
+</form>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>

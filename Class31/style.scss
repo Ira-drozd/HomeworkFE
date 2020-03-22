@@ -1,0 +1,69 @@
+body{
+  box-sizing: border-box;
+}
+.gallery{
+  overflow: hidden;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  background: red;
+  display: flex;
+
+  button{
+    width: 50px;
+    position: absolute;
+    z-index: 1;
+    height: inherit;
+  }
+  #prev{
+
+  }
+  #next{
+    right: 0;
+  }
+  img{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 0 50px;
+  }
+}
+
+input.ok + span:after{
+  content: '\2714';
+  color: green;
+  font-size: 15px;
+  position: absolute;
+  right: 15px;
+}
+
+input.no + span:after{
+  content: '\2715';
+  color: red;
+  font-size: 15px;
+  position: absolute;
+  right: 15px;
+}
+
+form[name="myform"]{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+ border-radius: 5px;
+  border: 1px solid black;
+
+  span{
+    position: relative;
+  }
+
+  label{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+    input{
+      width: 50%;
+    }
+  }
+}
