@@ -9,7 +9,6 @@ console.log(JSON.stringify(newObj));*/
 
 let xhr=new XMLHttpRequest();
 
-
 xhr.addEventListener("progress", updateProgress, false);
 xhr.addEventListener("load", transferComplete, false);
 xhr.addEventListener("error", transferFailed, false);
@@ -56,9 +55,9 @@ let linkInstaJSON='https://api.instagram.com/v1/users/2093101329/media/recent/?a
 
 let request=new XMLHttpRequest();
 request.open("GET", linkInstaJSON);
-//request.responseType='text';
+//request.responseType='json';
 //request.send();
-console.log(JSON.parse(request));
+
 */
 
 

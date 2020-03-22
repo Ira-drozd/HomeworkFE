@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+}
+
+.invalid {
+  border-color: red;
+}
+
+#errorEmail, #errorPassword {
+  color: red;
+  min-height: 25px;
+  text-align: end;
+}
+
+/*form style*/
+form[name=myform] {
+  max-width: 500px;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+form[name=myform] label {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+form[name=myform] label input {
+  width: 50%;
+}
+@media (max-width: 400px) {
+  form[name=myform] label {
+    flex-direction: column;
+  }
+  form[name=myform] label input {
+    width: 100%;
+  }
+}
+form[name=myform] input[type=submit] {
+  width: 70px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */
