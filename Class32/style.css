@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 10px;
+  grid-column-gap: 90px;
+}
+
+/*# sourceMappingURL=style.css.map */

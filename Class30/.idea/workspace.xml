@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ab371e-80ce-4fb5-b09e-526d583f45af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/Class32.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormValidator/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FormValidator/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormValidator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FormValidator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormValidator/public/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FormValidator/public/js.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Class28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Class29" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -77,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584707560515</updated>
       <workItem from="1584707561667" duration="7532000" />
+      <workItem from="1585239153810" duration="24000" />
     </task>
     <servers />
   </component>
@@ -88,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

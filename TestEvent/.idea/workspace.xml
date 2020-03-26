@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad6d78e-88de-495e-988d-11d3ae088261" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Class27/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class27/.idea/Class27.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class27/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class27/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class27/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class27/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class27/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class27/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestDom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestDom/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestDom/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/TestEvent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Class15/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Class15/untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Class26/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Class26/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/Class32.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class32/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class30/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Class30/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormValidator/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FormValidator/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormValidator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FormValidator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormValidator/public/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FormValidator/public/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -96,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584037439641</updated>
       <workItem from="1584037440770" duration="3358000" />
+      <workItem from="1585239299126" duration="59000" />
     </task>
     <servers />
   </component>
@@ -107,7 +100,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
