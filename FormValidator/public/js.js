@@ -21,30 +21,39 @@ function emailFocus() {
 email.addEventListener('focus', emailFocus);
 password.addEventListener('focus', passwordFocus);
 
-function submitForm() {
+function submitForm(event) {
     event.preventDefault();
 
-   console.log({email: email.value, password: password.value})
+    console.log({email: email.value, password: password.value})
 
     $.ajax({
-        method:"POST",
+        method: "POST",
         url: "/register",
-        data:{email: email.value, password: password.value}
+        data: {email: email.value, password: password.value}
     })
         .done(function (data) {
             console.log("Data Saved: ", data);
-            if (data.status ===1){
+            if (data.status === 1) {
                 email.classList.add("invalid");
-                errorEmail.innerHTML="Please enter, dia130396@gmail.com"
+                errorEmail.innerHTML = "Please enter, dia130396@gmail.com"
+            }
+            if (data.status === 2) {
+                password.classList.add("invalid");
+                errorPassword.innerHTML = "Please enter,  Password.123"
             }
 
         })
-        .done(function (data) {
-            if (data.status ===2){
+   /*     .done(function (data) {
+            if (data.status === 2) {
                 password.classList.add("invalid");
-                errorPassword.innerHTML="Please enter,  Password.123"
+                errorPassword.innerHTML = "Please enter,  Password.123"
             }
-        });
+
+        })*/
+        .fail(function (data) {
+            console.log("Error load");
+        })
+    ;
 
 }
 

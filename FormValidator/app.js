@@ -21,11 +21,11 @@ app.post("/register", urlencodedParser, function (request, response) {
     let password= request.body.password;
 
     let emailPattern=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if(!emailPattern.test(email)) return {status:1}
+    if(!emailPattern.test(email)) return {status:1, message: "Bad email"}
 
     let passwordPattern=[/[0-9]{1,}/, /[A-z]{1,}/, /\.{1,}/];
         if (!(passwordPattern[0].test(password) && passwordPattern[1].test(password) && passwordPattern[2].test(password) && password.length > 6)) {
-            return {status:2}
+            return {status:2, message: "Bad password"}
         }
 
     return {message: "ok"}
