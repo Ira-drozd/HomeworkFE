@@ -6,29 +6,65 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
     <title>Document</title>
 </head>
 <body>
-<input id="pencilColor" type="color">
 
-<input id="pencilWidth" type="range" max="100" step="2" value="1" required>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="logo">
+                <img src="images/svg/paint-roller-solid.svg" alt="logo">
+                <h1>Canvas</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10">
+            <div class="control">
+               <!-- <div class="control-styles">
+                    <input id="pencilColor" class="form-control" type="color">
+                    <input id="pencilWidth" class="custom-range" type="range" max="100" step="2" value="1" required>
+                </div>-->
 
-<!--<select id="pencilWidth">
-    <option value="50">1</option>
-    <option value="5">4</option>
-    <option value="10">10</option>
-</select>-->
-<button id="pencil">pencil</button>
-<button id="eraser">eraser</button>
-<button id="line">line</button>
-<button id="rect">rect</button>
-<button id="clear">clear</button>
-<button id="save">save</button>
-<div id="savedCopyContainer">
-    <img id="savedImageCopy"><br>
-    Щелкните правой кнопкой мыши для сохранения ...
+                <div class="control-buttons">
+                    <input id="pencilColor" class="form-control" type="color">
+                    <button id="pencil" class="btn btn-light btn-lg"><img src="images/svg/pencil-alt-solid.svg" alt="pencil"></button>
+                    <button id="line" class="btn btn-light btn-lg"><img src="images/svg/pencil-ruler-solid.svg" alt="line"></button>
+                    <button id="rect" class="btn btn-light btn-lg"><img src="images/svg/square-regular.svg" alt="rect"></button>
+                    <button id="rect-fill" class="btn btn-light btn-lg"><img src="images/svg/square-solid.svg" alt="rect fill"></button>
+                    <button id="acr" class="btn btn-light btn-lg"><img src="images/svg/circle-regular.svg" alt="acr"></button>
+                    <button id="acr-fill" class="btn btn-light btn-lg"><img src="images/svg/circle-solid.svg" alt="acr fill"></button>
+                    <button id="eraser" class="btn btn-light btn-lg"><img src="images/svg/eraser-solid.svg" alt="eraser"></button>
+                </div>
+                <div class="control-styles">
+                    <input id="pencilWidth" class="custom-range" type="range" max="200" step="2" value="1" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="control">
+                <div class="control-setting">
+                    <button id="clear" class="btn btn-danger btn-lg"><img src="images/svg/broom-solid.svg" alt="clear"></button>
+                    <button id="save" class="btn btn-success btn-lg"><img src="images/svg/cloud-download-alt-solid.svg" alt="save"></button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<canvas id="myCanvas" width="500" height="500" ></canvas>
+
+<div class="container">
+    <div class="canvas-container">
+        <canvas id="myCanvas" width="1000" height="700"></canvas>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--<script src="node_modules/bootstrap/dist/js/po"></script>-->
+
 <script type="application/javascript" src="js.js"></script>
 </body>
 </html>

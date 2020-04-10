@@ -1,10 +1,14 @@
 let container = document.getElementById("container");
+let block = document.getElementById("block");
 
 container.addEventListener("mousedown", mouseDown);
 container.addEventListener("mouseup", mouseUp);
 container.addEventListener("click", function () {
     let newRect = new Rect(coords);
     newRect.myCoords();
+
+    let newEditBlock = new Rect(coords);
+    newEditBlock.editBlock();
 });
 
 let coords = {};
@@ -37,5 +41,23 @@ class Rect {
         console.log(this.x + " " + this.y + " " + this.w + " " + this.h);
     }
 
+    editBlock() {
+        block.style.top = this.x + "px";
+        block.style.left = this.y + "px";
+        block.style.width = this.w + "px";
+        block.style.height = this.h + "px";
+        block.style.display = "block";
+        console.log(top);
+    }
 }
 
+/*function editBlock(top, left, width, height) {
+    block.style.top = this.x + "px";
+    block.style.left = this.y + "px";
+    block.style.width = width + "px";
+    block.style.height = height + "px";
+    block.style.display="block";
+    console.log(top);
+}*/
+
+/*container.addEventListener("click", editBlock.bind(null, coords.downX, coords.downY, 150, 150));*/
